@@ -1,7 +1,7 @@
 {
     "plugin": {
-        "version": "4.3-beta-2",
-        "date": "Sat, 18 May 2019 13:32:24 +0000"
+        "version": "4.3",
+        "date": "Sun, 09 Jun 2019 06:43:50 +0000"
     },
     "groups": [
         {
@@ -39,7 +39,7 @@
         {
             "id": 5,
             "name": "Redirections",
-            "redirects": 11,
+            "redirects": 12,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": true
@@ -1150,6 +1150,34 @@
             "group_id": 5,
             "position": 10,
             "last_access": "May 18, 2019",
+            "enabled": true
+        },
+        {
+            "id": 41,
+            "url": "/language",
+            "match_url": "/language",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": false,
+                    "flag_trailing": false,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "language": "de",
+                "url_from": "/language/match",
+                "url_notfrom": "/language/notmatch"
+            },
+            "match_type": "language",
+            "title": "",
+            "hits": 2,
+            "regex": false,
+            "group_id": 5,
+            "position": 11,
+            "last_access": "June 9, 2019",
             "enabled": true
         }
     ]
